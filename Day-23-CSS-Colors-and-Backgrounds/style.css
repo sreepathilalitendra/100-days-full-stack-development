@@ -1,0 +1,50 @@
+/* Body Styling */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Main Heading */
+
+h1{
+    color: navy;
+    text-align: center;
+}
+
+/* Color Name */
+
+.color-name{
+    color: blue;
+}
+
+/* HEX Color */
+
+.hex-color{
+    color: #ff5733;
+}
+
+/* RGB Color */
+
+.rgb-color{
+    color: rgb(34, 139, 34);
+}
+
+/* Background Example */
+
+.background-box{
+
+    background-color: lightblue;
+
+    background-image: url("background.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    border: 2px solid black;
+
+    padding: 20px;
+
+    height: 200px;
+}
