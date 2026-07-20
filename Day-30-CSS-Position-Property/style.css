@@ -1,0 +1,75 @@
+/* Body Styling */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Main Heading */
+
+h1{
+    text-align: center;
+    color: navy;
+}
+
+/* Common Box Style */
+
+.box{
+    width: 180px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    background-color: royalblue;
+    margin: 10px;
+}
+
+/* Static Position */
+
+.static{
+    position: static;
+}
+
+/* Relative Position */
+
+.relative{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+/* Parent Container */
+
+.parent{
+    position: relative;
+    width: 400px;
+    height: 180px;
+    border: 2px solid black;
+}
+
+/* Absolute Position */
+
+.absolute{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    background-color: green;
+}
+
+/* Fixed Position */
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+}
+
+/* Sticky Position */
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    padding: 15px;
+    font-weight: bold;
+}
