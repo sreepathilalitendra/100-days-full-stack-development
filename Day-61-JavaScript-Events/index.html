@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Page Title -->
+    <title>Day 61 - JavaScript Events</title>
+
+</head>
+<body>
+
+    <h1 id="heading">JavaScript Events</h1>
+
+    <hr>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <br><br>
+
+    <button ondblclick="doubleClickMessage()">
+        Double Click Me
+    </button>
+
+    <br><br>
+
+    <div
+        onmouseover="mouseOver()"
+        onmouseout="mouseOut()"
+        style="width:250px;height:100px;background-color:lightgray;
+        display:flex;align-items:center;justify-content:center;cursor:pointer;">
+
+        Move Mouse Here
+
+    </div>
+
+    <br>
+
+    <input
+        type="text"
+        id="username"
+        placeholder="Type your name"
+        onkeyup="showText()">
+
+    <hr>
+
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
