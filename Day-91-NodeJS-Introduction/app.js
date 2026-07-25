@@ -18,7 +18,7 @@ function greet(name) {
 
 }
 
-greet("Lalitendra");
+greet("Vamanan");
 
 console.log("---------------------------");
 
