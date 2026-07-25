@@ -1,0 +1,8 @@
+{
+  "name": "day-92-nodejs-modules-filesystem",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
