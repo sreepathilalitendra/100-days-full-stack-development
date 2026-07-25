@@ -1,0 +1,11 @@
+{
+  "name": "day-91-nodejs-introduction",
+  "version": "1.0.0",
+  "description": "Node.js Introduction",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
