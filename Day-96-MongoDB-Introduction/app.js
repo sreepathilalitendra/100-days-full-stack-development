@@ -1,13 +1,14 @@
 // Day 96 - MongoDB Introduction
 
+require("dotenv").config();
+
 const { MongoClient } = require("mongodb");
 
-// Replace with your MongoDB Connection String
-const url = "mongodb://127.0.0.1:27017";
+const url = process.env.MONGO_URI;
 
 const client = new MongoClient(url);
 
-const databaseName = "fullstackdb";
+const databaseName = process.env.DATABASE_NAME;
 
 async function connectDatabase() {
 
