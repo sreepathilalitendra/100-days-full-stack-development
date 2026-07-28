@@ -1,0 +1,12 @@
+{
+  "name": "day-96-mongodb-introduction",
+  "version": "1.0.0",
+  "description": "MongoDB Introduction",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
